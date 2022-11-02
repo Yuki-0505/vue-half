@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.2.41",
-    "vue-half": "^0.0.0"
+    "vue-half": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",

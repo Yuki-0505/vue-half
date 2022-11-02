@@ -1,9 +1,9 @@
 {
   "name": "vue-half",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "shewulong",
   "license": "MIT",
-  "description": "vue class component",
+  "description": "global state manage store & vue class component",
   "keywords": [
     "vue",
     "class component"

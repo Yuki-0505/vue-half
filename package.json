@@ -1,0 +1,50 @@
+{
+  "name": "vue-half",
+  "version": "0.0.0",
+  "author": "shewulong",
+  "license": "MIT",
+  "description": "vue class component",
+  "keywords": [
+    "vue",
+    "class component"
+  ],
+  "type": "commonjs",
+  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "repository": "https://github.com/Yuki-0505/vue-half.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "tsc",
+    "publish:build": "pnpm build && pnpm publish",
+    "push": "git push && git push --tags",
+    "publish:push": "pnpm publish:build && pnpm push",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=14.20.0"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "vue-demi": "latest"
+  },
+  "devDependencies": {
+    "vue": "^3.0.0",
+    "vue-class-component": "^7.2.6"
+  }
+}
